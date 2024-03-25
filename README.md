@@ -1,5 +1,11 @@
 # SmartTutor
-SmartTutor is a chrome extension that utilizes ChatGPT's api to assist students with remote learning. 
+SmartTutor is a chrome extension that utilizes ChatGPT, Firebase, Youtube, and Googles api to assist students with remote learning. React for frontend, Flask for backend, Firebase for database. 
+
+## Demo
+![](https://github.com/richsi/Smart_Tutor/blob/main/media/1.gif)
+![](https://github.com/richsi/Smart_Tutor/blob/main/media/2.gif)
+![](https://github.com/richsi/Smart_Tutor/blob/main/media/3.gif)
+![](https://github.com/richsi/Smart_Tutor/blob/main/media/4.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
