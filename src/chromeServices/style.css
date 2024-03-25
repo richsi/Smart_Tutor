@@ -1,0 +1,48 @@
+/* style.css */
+
+.discussion-container {
+  display: flex;
+  border: 2px solid white; /* White frame */
+  margin-top: 20px;
+  background: #FFD686; /* New background color */
+  color: #003366; /* New text color for the container */
+}
+
+.discussion-sidebar {
+  width: 200px;
+  border-right: 2px solid white;
+  font-size: 1.2em; /* 20% larger than the base font size */
+}
+
+.discussion-tab {
+  padding: 10px;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  text-align: center;
+  background-color: #FFD686; /* New background color for tabs */
+  color: #003366; /* New text color for tabs */
+  transition: background-color 0.3s;
+  font-size: 1.2em; /* 20% larger than the base font size */
+  font-weight: bold; /* Make the font bold */
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.discussion-tab:hover,
+.discussion-tab.active {
+  background-color: #555; /* Darker color for hover/active state */
+}
+
+.discussion-content {
+  flex-grow: 1;
+  padding: 20px;
+  font-size: 1.2em; /* 20% larger than the base font size */
+}
+
+.discussion-title {
+  margin-top: 0;
+  font-size: 1.2em; /* 20% larger than the base font size */
+}
